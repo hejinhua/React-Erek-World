@@ -1,0 +1,22 @@
+.Header-box{
+    height: 150px;
+    background-color: #222;
+}
+.Header-box img.nav-logo{
+    width: 120px;
+    margin-top: 30px;
+    animation: nav-logo infinite 6s linear;
+    float: left;
+    margin-left: 9.4%;
+}
+.Header-box p.MainTitle{
+    margin:0;
+    color: white;
+    padding-top: 60px;
+    font-size: 1.6em;
+}
+@keyframes nav-logo {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  

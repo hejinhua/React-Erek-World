@@ -1,0 +1,29 @@
+.TagButton{
+    width: 92%;
+    border: none;
+    color: white;   
+    border-radius: 6px;
+    margin-bottom: 1.1em;
+    height: 3.3em;
+}
+.TagColor-0{
+    background-color: #febc4f;
+}
+.TagColor-1{
+    background-color: #b7d6ec;
+}
+.TagColor-2{
+    background-color: #c2e4de;
+}
+.TagColor-3{
+    background-color: #f69581;
+}
+.TagColor-4{
+    background-color: #8d90ec;
+}
+.TagColor-5{
+    background-color: #a5a96c;
+}
+.TagColor-6{
+    background-color: #b588bd;
+}
