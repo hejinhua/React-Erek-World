@@ -3,6 +3,11 @@
     记录一下～这是一个刚看了react.js入门教程的小白写的demo，大佬们请移步，打卡+1。
 ```
 
+## 页面展示
+![image](https://github.com/PDKSophia/ONE_WORD/raw/master/images/J_1.png)
+
+![image](https://github.com/PDKSophia/ONE_WORD/raw/master/images/J_2.png)
+
 ## 使用
 ```base
  1 ：git clone 
