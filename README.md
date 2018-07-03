@@ -8,6 +8,8 @@
 
 ![image](https://github.com/PDKSophia/ONE_WORD/raw/master/images/J_2.png)
 
+![image](https://github.com/PDKSophia/ONE_WORD/raw/master/images/J_3.png)
+
 ## 使用
 ```base
  1 ：git clone 
@@ -20,7 +22,7 @@
 
  （端口是3000）
 
- 【 注 意 】 ： 请访问 localhost:3000/home
+ 【 注 意 】 ： 请访问 localhost:3000
  
  ```
 ### 后面将会写成博客markdown的形式记录入坑react之路的

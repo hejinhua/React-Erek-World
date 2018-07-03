@@ -1,0 +1,41 @@
+.AuthorList{
+
+}
+.auth-cell {
+    width: 100%;
+    height: 6em;
+}
+.AuthorList img.avatar{
+    width: 4em;
+    border-radius: 50%;
+    height: 4em;
+    float: left;
+}
+.AuthorList .textContent{
+    width: 55%;
+    padding-left: .6em;
+    float: left;
+}
+.textContent p.auth-username{
+    margin-left: 5em;
+    color: #494949;
+    margin: 0;
+    margin-bottom: .3em;
+    font-size: 1.1em;
+    padding-top: .2em;
+}
+.textContent p.auth-summary{
+    margin-left: 5em;
+    color: #aaa;
+    margin: 0;
+    font-size: .88em;
+}
+button.attention{
+    float: right;
+    border: none;
+    color: #42c02e;
+    border: 1px solid #42c02e;
+    padding: .3em .6em;
+    border-radius: 6px;
+    margin-top: 1em;
+}

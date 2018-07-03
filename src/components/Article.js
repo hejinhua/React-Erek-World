@@ -4,11 +4,14 @@ import '../assets/css/Article.css'
 import Header from '../basicComponent/Header'
 import SliderImage from '../basicComponent/Slider'
 import TagButton from '../basicComponent/TagButton'
+import Art from '../basicComponent/Art'
+import SubTitle from '../basicComponent/SubTitle'
 
 class Article extends Component {
     constructor(props) {
         super(props)
         this.state = {
+            text : '123',
             buttonList : [
                 {
                     text : '六月精选',
@@ -41,10 +44,14 @@ class Article extends Component {
                 <div className="MainContainer">
                     <div className="Container-left">
                         <SliderImage text={this.state.text}></SliderImage>
+                        <Art text={this.state.text}></Art>
                     </div>
                     <div className="Container-right">
                         <div className="tag-cell">
                             <TagButton buttonList={this.state.buttonList}></TagButton>
+                        </div>
+                        <div className="sub-container">
+                            <SubTitle title="推荐作者"></SubTitle>
                         </div>
                     </div>
                 </div>
