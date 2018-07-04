@@ -3,9 +3,6 @@ import AuthorList from '../data/author.js';
 import '../assets/css/basic/author.css';
 
 class Author extends React.Component{
-    constructor(props){
-        super(props)
-    }
     componentWillMount() {
     }
     render() {

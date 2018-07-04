@@ -10,6 +10,8 @@
 
 ![image](https://github.com/PDKSophia/ONE_WORD/raw/master/images/J_3.png)
 
+![image](https://github.com/PDKSophia/ONE_WORD/raw/master/images/J_4.png)
+
 ## 使用
 ```base
  1 ：git clone 
@@ -20,9 +22,9 @@
 
  3 ：npm start
 
- （端口是3000）
+ （端口是3000， 修改端口请到node_modules/react-script/script.js中更改）
 
- 【 注 意 】 ： 请访问 localhost:3000
+ 【 注 意 】 ： 请访问 localhost:3000/home
  
  ```
 ### 后面将会写成博客markdown的形式记录入坑react之路的

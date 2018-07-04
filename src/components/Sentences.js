@@ -1,9 +1,13 @@
 import React , { Component } from 'react';
+import Header from '../basicComponent/Header'
 
 class Sentence extends Component {
     render() {
         return (
-            <h1>Sentence</h1>
+            <div>
+                <Header />
+                
+            </div>
         );
     }
 }

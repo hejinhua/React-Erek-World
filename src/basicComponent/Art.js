@@ -2,13 +2,7 @@ import React from 'react';
 import '../assets/css/basic/art.css'
 import ArticleList from '../data/article.js'
 
-// const lastStyle = {
-//     'border-bottom' : 'none'
-// }
 class Art extends React.Component{
-    constructor(props, context){
-        super(props, context)
-    }
     
     render(){
         return (

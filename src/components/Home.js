@@ -18,7 +18,7 @@ class Home extends Component {
                             <li className="flex-cell"><Link to="home">Home</Link></li>
                             <li className="flex-cell"><Link to="article">Article</Link></li>
                             <li className="flex-cell"><Link to="music">Music</Link></li>
-                            <li className="flex-cell"><Link to="sentence">Sentence</Link></li>
+                            <li className="flex-cell"><Link to="sentences">Sentence</Link></li>
                         </ul>
                     </div>
                 </div>
