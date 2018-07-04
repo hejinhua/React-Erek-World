@@ -1,0 +1,59 @@
+.media-hot-recommend{
+    padding: 1.2em 1.8em;
+}
+.hot-container{
+    padding-bottom: .66em;
+    border-bottom: 2px solid  #6f6f6f;
+}
+
+p.hot-title {
+    font-size: 1.55em;
+    float: left;
+    color: #494949;
+    margin: 0;
+    margin-left: .3rem;
+}
+ul.ablum-flex{
+    margin-left: 7.8em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    font-size: 1.05em;
+    color: #aaa;
+    padding-top: .52em;
+}
+ul.ablum-flex>li{
+    margin-right: 1em;
+}
+.ablum-box{
+    width: 100%;
+    display: flex;
+    padding-left: .8em;
+    flex-wrap: wrap;
+}
+.ablum-box .album-cell{
+    width: 20%;
+    margin-top: 1.3em;
+}
+.album-cell img{
+    width: 10em;
+}
+.album-cell p.ablum_text{
+    width: 10em;
+    overflow: hidden;
+    font-size: 1em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    margin: 0;
+}
+.album-cell p.ablum_author{
+    font-size: .88em;
+    color: #aaa;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0;
+    margin-top: .18em;
+    word-wrap: normal;
+}

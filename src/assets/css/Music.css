@@ -1,0 +1,16 @@
+.meida-song-container{
+    padding: 0% 9.5%;
+    background-color: #f5f5f5;
+    width: 81%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.meida-song-container .media-ablum{
+    width: 70%;
+    background-color: white;
+}
+.meida-song-container .media-recommend{
+    width: 29%;
+    border-left: 2px solid #f5f5f5;
+    background-color: white;
+}

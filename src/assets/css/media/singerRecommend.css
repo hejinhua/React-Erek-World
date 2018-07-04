@@ -1,0 +1,51 @@
+.user-login-box {
+    padding: 2em;
+    background: #ededed;
+    color: #333;
+    font-size: 1.1em;
+    text-align: center;
+}
+.media-btn-login{
+    width: 90%;
+    border-color: #e1151e;
+    background-color: #e1151e; 
+    color: white; 
+    border-radius: 6px;
+    margin-bottom: 1.1em;
+    height: 3.3em;
+}
+
+.singer-titles{
+    font-size: 1.4em;
+    padding: 0rem 1.5em;
+}
+.singer-box {
+    padding: 0rem 2em;
+}
+
+.singer-cell {
+    width: 100%;
+    height: 4.6em;
+    background:#fafafa;
+    margin-bottom: 1.5em;
+}
+.singer-cell img.singer-avatar{
+    height: 4.6em;
+    width: 4.6em;
+    float: left;
+}
+.singer-textContent{
+    width: 55%;
+    padding-left: .6em;
+    float: left;
+}
+.singer-textContent p.singer-username{
+    font-size: 1.1em;
+    color: #333;
+    margin-top: .3em;
+}
+.singer-textContent p.singer-summary{
+    font-size: .88em;
+    color: #333;
+    margin: 0;
+}
