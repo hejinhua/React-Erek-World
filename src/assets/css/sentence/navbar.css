@@ -1,0 +1,29 @@
+.sen-nav-bar{
+    margin: 0em 2em;
+    background-color: white;
+}
+.sen-nav-bar {
+    padding:1em;
+    padding-left: 3em;
+}
+.sen-nav-bar p.Sent-title{
+    font-size: 1.35em;
+    margin: 0;
+    color: #494949;
+    float: left;
+}
+ul.sent-attention-flex{
+    margin-left: 4.8em;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: .92em;
+    color: #aaa;
+    margin-top: .36em;
+}
+ul.sent-attention-flex>li{
+    margin-right: 1.6em;
+}
+li.sent_li:hover{
+    color:#007fff; 
+    cursor: pointer;
+}

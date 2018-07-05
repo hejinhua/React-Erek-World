@@ -28,6 +28,7 @@
     height: 4.6em;
     background:#fafafa;
     margin-bottom: 1.5em;
+    border: 1px solid #e9e9e9;
 }
 .singer-cell img.singer-avatar{
     height: 4.6em;

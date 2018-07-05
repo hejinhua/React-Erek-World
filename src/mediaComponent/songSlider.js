@@ -13,7 +13,7 @@ class SliderImage extends React.Component {
             this.setState({
                 selectIndex : this.state.selectIndex + 1
             })
-        }, 2000)
+        }, 1500)
     }
     componentWillUnmount() {
         clearInterval(this.SliderTime)
