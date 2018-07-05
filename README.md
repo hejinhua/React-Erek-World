@@ -2,7 +2,42 @@
 ```base
     记录一下，这是刚学react的小白入坑小demo，纯静态，完善中... 每日打卡+1 ，大佬们请移步 ～
 ```
+## 技术栈
+<ul>
+    <li>eeact.js</li>
+    <li>react-redux</li>  
+    <li>react-router-dom</li>
+    <li>redux-thunk</li>
+    <li>prop-types</li>
+    <li>...</li>
+</ul>
+<p>redux在此项目中暂时还未用到</p>
 
+## 整个项目架构
+~~~
+ONE WORD
+├─src              
+│   ├─assets                    静态资源文件
+│   │    ├─css             
+│   │    ├─img              
+│   │    └─ ...
+│   │ 
+│   ├─basicComponent            基础组件
+│   │ 
+│   ├─components                主组件
+│   │ 
+│   ├─data                      一些写死的数据
+│   │
+│   ├─router                    路由配置目录
+│   │  ├─index.js 
+│   │
+│   ├─mediaComponent            Music页组件
+│   │
+│   ├─sentenceComponent         Sentence页组件
+│   │
+│   ├─index.js                  入口文件
+│   │
+~~~
 ## 页面展示
 ![image](https://github.com/PDKSophia/ONE_WORD/raw/master/images/J_1.png)
 
