@@ -11,7 +11,7 @@
     <li>prop-types</li>
     <li>...</li>
 </ul>
-<p>redux在此项目中暂时还未用到</p>
+<p>redux在此项目中暂时还未用到，暂时用data中的假数据替代，所以数据写死，也懒得自己去mock以及掉ONE 和 网易云等API，总之这个项目，就只是楼主入门react做的小demo而已，项目架构可能有点糟糕，望大佬们能指点一番 ～</p>
 
 ## 整个项目架构
 ~~~
@@ -86,7 +86,7 @@ ONE WORD
 
 ------
 
-React.sj 小书地址 ： https://github.com/huzidaha/react-naive-book
+React.js 小书地址 ： https://github.com/huzidaha/react-naive-book
 
 免费开源使用。
 
