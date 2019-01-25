@@ -1,15 +1,14 @@
-import React, { Component } from 'react';
-
-import BasicRouter from './route/index';
+import React, { Component } from 'react'
+import BasicRouter from './router'
 
 class App extends Component {
   render() {
     return (
       <div>
-        <BasicRouter></BasicRouter>
+        <BasicRouter />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App

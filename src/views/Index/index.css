@@ -1,0 +1,56 @@
+.app_pager_1_container {
+  text-align: center;
+  background-color: #222;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  color: white;
+}
+
+.app_pager_1_applogo {
+  animation: App-logo-spin infinite 10s linear;
+  height: 150px;
+  margin-top: 120px;
+}
+
+.app_pager_1_appname {
+  font-size: 1.8em;
+}
+
+.app_pager_1_summary p.app_pager_1_text {
+  color: white;
+  margin: 0;
+  font-size: 1.1em;
+  margin-top: 3.8em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app_pager_1_login {
+  margin-top: 6%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
