@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import classNames from 'classnames'
 import PropTypes from 'prop-types'
 import { APP } from '../../config/app'
+import { connect } from 'react-redux'
+import { actions as globalActions } from '../../store/global'
 import { withStyles } from '@material-ui/core/styles'
 import { Button } from '@material-ui/core'
 import InputIcon from '@material-ui/icons/Input'
@@ -29,6 +31,10 @@ const styles = theme => ({
   }
 })
 class Index extends Component {
+  componentWillMount() {
+    console.log(this.props)
+    this.props.dispatch(globalActions.setAppName(APP.APP_NAME))
+  }
   render() {
     const { classes } = this.props
 
@@ -40,7 +46,7 @@ class Index extends Component {
           <p className='app_pager_1_text'>{APP.APP_SUMMART}</p>
         </div>
         <div className='app_pager_1_login'>
-          <Link to='/music'>
+          <Link to='/sentences'>
             <Button
               variant='contained'
               color='primary'
@@ -61,4 +67,8 @@ Index.propTypes = {
   classes: PropTypes.object.isRequired
 }
 
-export default withStyles(styles)(Index)
+const mapStateToProps = ({ uglobal }) => ({
+  ...uglobal
+})
+
+export default connect(mapStateToProps)(withStyles(styles)(Index))
