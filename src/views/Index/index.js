@@ -32,7 +32,6 @@ const styles = theme => ({
 })
 class Index extends Component {
   componentWillMount() {
-    console.log(this.props)
     this.props.dispatch(globalActions.setAppName(APP.APP_NAME))
   }
   render() {
@@ -43,10 +42,10 @@ class Index extends Component {
         <img src={APP.APP_LOGO} className='app_pager_1_applogo' alt='logo' />
         <h1 className='app_pager_1_appname'>{APP.APP_NAME}</h1>
         <div className='app_pager_1_summary'>
-          <p className='app_pager_1_text'>{APP.APP_SUMMART}</p>
+          <p className='app_pager_1_text'>{APP.APP_SUMMARY}</p>
         </div>
         <div className='app_pager_1_login'>
-          <Link to='/sentences'>
+          <Link to='/authorize'>
             <Button
               variant='contained'
               color='primary'

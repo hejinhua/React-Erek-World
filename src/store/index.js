@@ -2,16 +2,16 @@ import { createStore, applyMiddleware, combineReducers } from 'redux'
 import { createLogger } from 'redux-logger'
 import createSagaMiddleware from 'redux-saga'
 import { all } from 'redux-saga/effects'
-// import globalReducer, { watchGlobal } from './global'
 import globalReducer from './global'
+import loginReducer, { watchLogin } from './login'
 
 const rootReducer = combineReducers({
-  uglobal: globalReducer
+  uglobal: globalReducer,
+  ulogin: loginReducer
 })
 
 function* rootSaga() {
-  // yield all([watchGlobal()])
-  yield all([])
+  yield all([watchLogin()])
 }
 
 const sagaMiddleware = createSagaMiddleware()
